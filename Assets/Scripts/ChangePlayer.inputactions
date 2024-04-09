@@ -1,0 +1,54 @@
+{
+    "name": "ChangePlayer",
+    "maps": [
+        {
+            "name": "Mechaninc",
+            "id": "bac33a5e-48bd-4b23-9d77-6ed6f8547938",
+            "actions": [
+                {
+                    "name": "PreviousPlayer",
+                    "type": "Button",
+                    "id": "1b2f73ac-e7a2-4127-bcba-3d6326b35eb3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NextPlayer",
+                    "type": "Button",
+                    "id": "93d64a45-e636-4e51-a91c-99728ba1f824",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f528e690-258f-4d55-b306-97a5a1045d98",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PreviousPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c62cf05-3b34-427f-ac1c-182a7689a977",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
